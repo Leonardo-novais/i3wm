@@ -208,3 +208,5 @@ for_window [class=".*"] border pixel 1
 exec --no-startup-id nitrogen --restore
 #compton
 exec --no-startup-id "compton -b"
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
